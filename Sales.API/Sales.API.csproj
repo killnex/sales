@@ -307,6 +307,16 @@
     <Content Include="Scripts\jquery-3.4.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.4.1.min.map" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Sales.Common\Sales.Common.csproj">
+      <Project>{24bc2a9f-7110-4f92-8405-2e3453c242e2}</Project>
+      <Name>Sales.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sales.Domain\Sales.Domain.csproj">
+      <Project>{9fb4b544-c1ae-4c70-b738-ef504fe97998}</Project>
+      <Name>Sales.Domain</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
